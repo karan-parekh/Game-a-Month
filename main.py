@@ -29,7 +29,7 @@ def get_game_hrs(game_id):
 
 
 def main():
-    ttb = int(input("No. of hours per day: "))  # time to beat in hours
+    ttb = int(input("How many no. of hours per day can you play?\n>>> "))  # time to beat in hours
     # ttb = 0.1
     ttb = 6 if ttb > 6 else ttb
     ttb = 0.1 if ttb < 0.1 else ttb
